@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/Netflix1-20180822081935478.jpg);
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+ img {
+        padding: 0.1rem;
+    }
+    img {
+        /*   padding: 50px; */
+        /*   background-color: green; */
+          transition: transform .2s; /* Animation */
+          /* width: 200px; */
+          height: 200px;
+          margin: 0 auto;
+        }
+        
+        img:hover {
+          transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .headline {
+            display: flex;
+            justify-content: center;
+            padding: 1.5rem;
+            color: red;
+            font-size: 3rem;
+            font-weight: 100;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+            color: #cbc9c6;
+            font-size: 1.5rem;
+        }
